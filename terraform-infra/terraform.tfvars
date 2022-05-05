@@ -1,6 +1,6 @@
-## aws credential ##
-# aws-access-key = "xxxxxxxxxxxxx"
-# aws-secret-key = "xxxxxxxxxxxxx"
+# aws credential ##
+aws-access-key = "xxxxxxxxxxxxx"
+aws-secret-key = "xxxxxxxxxxxxx"
 
 name                = "flask-api"
 environment         = "dev"
