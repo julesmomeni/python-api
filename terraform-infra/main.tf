@@ -1,8 +1,12 @@
-provider "aws" {
-  access_key = var.aws-access-key
-  secret_key = var.aws-secret-key
-  region     = var.aws-region
-}
+# provider "aws" {
+#   access_key = var.aws-access-key
+#   secret_key = var.aws-secret-key
+#   region     = var.aws-region
+# }
+
+# provider "aws" {
+#   region     = var.aws-region
+# }
 
 module "vpc" {
   source             = "./vpc"
